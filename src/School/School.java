@@ -14,7 +14,7 @@ public class School {
         do {
             Scanner s=new Scanner(System.in);
             System.out.println(" Enter the marks scored ");
-            int marks=s.nextInt();
+            double marks=s.nextDouble();
             if(marks>=80 && marks<=100){
                 System.out.println(" Your grade is A ");
             }
